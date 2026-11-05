@@ -24,8 +24,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
-      - run: npm install
+      - run: npm ci
+
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
@@ -33,10 +35,14 @@ jobs:
           path: docs/.vitepress/dist
 
   deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
     environment:
       name: github-pages
-
-    needs: build
 
     runs-on: ubuntu-latest
 
