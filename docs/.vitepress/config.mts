@@ -21,7 +21,7 @@ title: 'OpenLaws',
     siteTitle: false,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/openlaws-org' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/company/openlaws/' }
+      { icon: 'linkedin', link: 'https://linkedin.com/company/88049357/' }
     ]
   },
   locales: {
