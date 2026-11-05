@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'OpenLaws',
+base: '/openlaws-website/',
+title: 'OpenLaws',
   description: 'The models will become interchangeable. The knowledge will remain.',
   appearance: true,
   cleanUrls: true,
