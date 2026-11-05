@@ -1,1 +1,46 @@
-:root{--vp-c-brand-1:#0ea5e9;--vp-c-brand-2:#14b8a6}.hero-graphic{max-width:1100px;margin:auto}
+@import './openlaws-tokens.css';
+
+:root {
+  --vp-font-family-base: var(--ol-font-sans);
+  --vp-font-family-mono: var(--ol-font-mono);
+  --vp-c-brand-1: #0284C7;
+  --vp-c-brand-2: #0EA5E9;
+  --vp-c-brand-3: #14B8A6;
+  --vp-c-bg: var(--ol-bg-canvas);
+  --vp-c-bg-soft: var(--ol-bg-surface);
+}
+
+.dark {
+  --vp-c-brand-1: #38BDF8;
+  --vp-c-brand-2: #0EA5E9;
+  --vp-c-brand-3: #14B8A6;
+  --vp-c-bg: #0F172A;
+  --vp-c-bg-soft: #111C30;
+}
+
+@keyframes olFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes olPulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(0.92); }
+}
+
+.ol-fade-1 { animation: olFadeUp 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.ol-fade-2 { animation: olFadeUp 0.55s 0.1s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.ol-fade-3 { animation: olFadeUp 0.55s 0.2s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.ol-fade-4 { animation: olFadeUp 0.55s 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ol-fade-1, .ol-fade-2, .ol-fade-3, .ol-fade-4 {
+    animation: none !important;
+  }
+}

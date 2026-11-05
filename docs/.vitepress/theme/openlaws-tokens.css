@@ -1,0 +1,32 @@
+:root {
+  --ol-color-navy: #0F172A;
+  --ol-color-blue: #0EA5E9;
+  --ol-color-teal: #14B8A6;
+  --ol-color-light-gray: #F3F4F6;
+  --ol-color-white: #FFFFFF;
+  --ol-color-action-primary: #0284C7;
+  --ol-color-action-primary-hover: #0369A1;
+
+  --ol-font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ol-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --ol-bg-canvas: #FFFFFF;
+  --ol-bg-surface: #F8FAFC;
+  --ol-bg-elevated: #FFFFFF;
+  --ol-text-primary: #0F172A;
+  --ol-text-secondary: #334155;
+  --ol-text-muted: #64748B;
+  --ol-border-subtle: #E2E8F0;
+  --ol-border-strong: #CBD5E1;
+}
+
+.dark {
+  --ol-bg-canvas: #0F172A;
+  --ol-bg-surface: #111C30;
+  --ol-bg-elevated: #1E293B;
+  --ol-text-primary: #F3F4F6;
+  --ol-text-secondary: #CBD5E1;
+  --ol-text-muted: #94A3B8;
+  --ol-border-subtle: #334155;
+  --ol-border-strong: #475569;
+}
