@@ -1,21 +1,16 @@
 {
-  "name": "vitepress-project",
+  "name": "openlaws-website",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
+  "description": "Public website, documentation, and brand hub of the OpenLaws Legal Knowledge Factory (openlaws.org).",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vue": "3.2.44",
-    "vitepress": "1.0.0-alpha.28"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    }
+    "vue": "^3.4.0",
+    "vitepress": "^1.3.0"
   }
 }
