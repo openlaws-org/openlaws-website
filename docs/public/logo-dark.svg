@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 44" width="210" height="44" role="img" aria-label="OpenLaws">
-  <defs>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&amp;display=swap');
-      .wordmark { font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.03em; }
-    </style>
-  </defs>
-  <text x="2" y="33" class="wordmark">
-    <tspan fill="#F3F4F6">Open</tspan><tspan fill="#0EA5E9">Laws</tspan>
-  </text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60"><text x="10" y="40" fill="#ffffff" font-size="32">OpenLaws</text></svg>
